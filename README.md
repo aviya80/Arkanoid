@@ -1,12 +1,30 @@
-ARKANOID game project written in Java as project in OOP course at Bar-Ilan University. need to have ant compile code available.
+# Arkanoid (Brick Breaker) Game
 
-The game has 3 different Levels:
+## Introduction
+Arkanoid is a classic Brick Breaker game implemented in Java. It was created as a project in the Introduction to Object-Oriented Programming course during my 1st year, second semester at Bar-Ilan University. The game utilizes various object-oriented programming concepts such as design patterns (Factory, Observer/Listener), polymorphism & interfaces, inheritance, and more.
 
-Direct hit - one ball, one block: need to hit the block with a clean shot.
-FinalFour - three balls , classic level.
-Green3 - two balls, classic level.
-WideEazy - ten balls, one line of blocks.
-each block will give you 100 points. each round will give you an additional bonus points.
+## About
+The game consists of 4 different levels, each with incrementing difficulty. It uses our university's GUI to display the animations.
 
-How to run it? go to folder directory and enter cmd. enter - ant compile. enter : ant run + {levels numbers}, for exmaple: ant run 3 1 1 4
-or enter: ant run (for default levels). enjoy :)
+## Requirements
+- GUI .jar file (included)
+- Apache Ant tool (for convenient build and run tasks) - installation instructions available online
+
+## Installation and Usage
+1. Enter the directory folder in the command-line.
+2. Run `ant compile` to compile the files.
+3. Run `ant run` followed by a sequence of numbers between 1-4 to select the game level, e.g., `ant run 3 1 1 4`. 
+   - Alternatively, just run `ant run` for the default level sequence.
+
+## Game Levels
+- **Direct Hit**: One ball, one block. Hit the block with a clean shot.
+- **Final Four**: Classic level with three balls.
+- **Green3**: Classic level with two balls.
+- **WideEazy**: Ten balls, one line of blocks. Each block hit gives 100 points. Each round grants additional bonus points.
+
+## How to Run
+1. Navigate to the game directory in the command line.
+2. Run `ant compile`.
+3. Run `ant run` followed by the desired level numbers or just `ant run` for default levels.
+
+Enjoy the game!
